@@ -1,0 +1,19 @@
+.SuccessContainer{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    padding: 20px;
+    background-color: rgb(62, 210, 28);
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    font-size: large;
+    box-shadow: 0 0 10px green;
+    color: black;
+    font-weight: bolder;
+}
+.SuccessContainer span{
+    border-left: 1px solid rgb(1, 45, 245);
+    padding: 5px;
+    border-radius: 20px;
+}

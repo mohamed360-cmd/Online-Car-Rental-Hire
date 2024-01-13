@@ -1,0 +1,53 @@
+.SettingMenu{
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px black;
+    background-color: rgba(0, 0, 0, 0.519);
+
+}
+.menuBtn{
+    border:none;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgb(48, 48, 214);
+    color: antiquewhite;
+}
+.menuBtn:hover{
+    box-shadow: 0 0 5px blue;
+}
+.CloseMenuBtn{
+    border:none;
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    border-radius: 100%;
+    color: white;
+    box-shadow: 0 0 5px red;
+    cursor: pointer;
+}
+.SettingMenu span{
+    padding: 5px;
+    border-left: 2px  solid rgb(22, 22, 22);
+    border-radius: 50px;
+}
+@media screen and (max-width: 600px) {
+    .SettingMenu{
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 6px;
+        box-shadow: 0 0 5px black;
+        background-color: rgba(0, 0, 0, 0.519);
+    }
+}

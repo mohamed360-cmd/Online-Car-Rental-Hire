@@ -1,0 +1,56 @@
+.mainCancelContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    overflow: scroll;
+    background-image: url("../../assets/bg3.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.CanceledTile{
+    height: 250px;
+    width :550px;
+    background-color: rgb(30, 30, 155);
+    display: flex;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.cancelimageConainter{
+    height: 100%;
+    width:40%;
+    object-fit: contain;
+}
+.canceledVehicleImage{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.reasonConainer{
+    width: 100%;
+    margin: 5px;
+    background-color: rgb(62, 61, 61);
+    color: aliceblue;
+    font-family: "Roboto slab";
+    height: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+.INfoTile{
+    background-color: aliceblue;
+    color: black;
+    font-family: "Roboto slab";
+    margin: 10px;
+    border-radius: 5px;
+}
+.reasonConainer span{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}

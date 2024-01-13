@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dosis:wght@800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.mainCarContainer{
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    height: 90vh;
+    background-image: url("../../assets/background-image.jpg");
+    background-size: contain;
+}
+.filterContainer{
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px black;
+    width: fit-content;
+}
+
+.filterOption{
+    border:1px solid rgb(94, 96, 95);  
+      border-radius: 6px;
+    color:gray;
+    padding: 5px;
+    box-shadow: 0 0 5px black;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.filterOption:hover{
+outline: none;
+background-color: rgb(203, 208, 212);
+color: black;
+}
+.ApplyFilterBtn{
+    border-radius: 7px;
+    padding: 8px;
+    margin-left: 5px;
+    border:none;
+    background-color: #486DB5;
+    cursor: pointer;
+}
+.ApplyFilterBtn:hover{
+    background-color: #6a90db;
+}
+.resetFilterBtn{
+    border-radius: 6px;
+    padding: 7px;
+    margin-left: 5px;
+    border:none;
+    background-color: rgb(141, 138, 135);
+    cursor: pointer;
+}
+.resetFilterBtn:hover{
+    background-color: rgb(161, 164, 167);
+}
+.carCountHolder{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #3767c8;
+}
+.vehicleDisplayContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:10px;
+    height: 400px;
+    overflow: scroll;
+    width: 80%;
+    
+}
+.vehicleDisplayContainer::-webkit-scrollbar{
+    border-radius: 20px;
+}
+.VehicelContainer{
+    height: fit-content;
+    max-height: 550px;
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow:  0 0 2px black;
+    cursor: pointer;
+    background-color: #f9f6fc;
+
+}
+.VehicelContainer:hover{
+    box-shadow: 0 2px 10px blue;
+}
+.VehicleImageContainer{
+    height: 60%;
+    object-fit: contain;
+}
+.vehicleImage{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.vName{
+    background-color: rgba(227, 221, 221, 0.636);
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+font-family: 'Roboto Slab', serif;
+}
+.vClassRed{
+    padding: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: #E9967A;
+    font-weight: bold;
+    margin: 3px;
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+}
+.vClassOrange{
+    padding: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: #FDD478;
+    font-weight: bold;
+    margin: 3px;
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+
+}
+.NoSits{
+    border-radius: 20px;
+    padding:3px;
+    min-width: 30px;
+    border:1px solid black;
+    display: inline-block;
+    background-color: white;
+    font-weight: 700;
+}
+.bubbleSpan{
+    border:1px solid seagreen;
+    padding: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+    margin: 3px;
+    font-family: 'Roboto Slab', serif;
+}
+.priceCard{
+    display: flex;
+    flex-direction: row;
+
+}
+.priceTitle{
+    color: grey;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    align-self: center;
+    margin-right: 5px;
+}
+.priceValue{
+    font-weight: bold;
+    display: inline-block;
+    color: #486DB5;
+    font-family: 'Roboto Slab', serif;
+    padding: 5px;
+    box-shadow: 0 0 5px #486DB5;
+    border-radius: 6px;
+}
+.rentBtn{
+    padding: 10px;
+    background-color: #3767c8;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.rentBtn:hover{
+    transform: scale(1.03);
+}
+.SupportBtn{
+    border:none;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 10px;
+    left:10px;
+    background-color: #17346d;
+    color: white;
+    cursor: pointer;
+    animation: supportBtnAnimation 1s ease-in-out infinite alternate-reverse ;
+    padding: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid black
+}
+.supportMessageArea{
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #041d4e;
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+.SupportMessagingAreaHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px;
+    border-radius: 6px;
+    width: fit-content;
+    box-shadow: 0 0 10px rgb(1, 1, 1);
+    margin-bottom: 2px;
+    font-family: 'Roboto Slab', serif ;
+    background-color: black;
+}
+.supportIcon{
+    width: 30px;
+    height: 30px;
+    background-color: #0562f9;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onlineBadge{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: limegreen;
+    border-radius: 50px;
+    top:0px;
+    right: 0px;
+}
+.MessageDisplayArea{
+    height: 90%;
+    background-color: #f9f6fc;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    font-family: 'Roboto Slab', serif ;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.SupportMessageBubble{
+    border: 1px solid rgb(0, 49, 128);
+    background-color: #3767c8;
+    padding: 5px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    width: fit-content;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+.MessageBubble{
+    background-color: rgb(25, 168, 25);
+    padding: 5px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    width: fit-content;
+    margin-top: 5px;
+    align-self: flex-end;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.msgInputBtnContainer{
+    border: 1px solid black;
+    padding: 2px;
+    background-color: #f9f6fc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.supportInputField{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto Slab', serif ;
+    box-shadow: 0 0 5px black;
+}
+.SendMessageBtn{
+    border:none;
+    width: 19%;
+    background-color: #041d4e;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Slab', serif ;
+}
+.closeSupportFormBtn{
+    border:none;
+    height: 30px;
+    width:30px;
+    align-self: center;
+    background-color: #f90505;
+    color: #FDD478;
+    border-radius: 50px;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .supportMessageArea{
+        width: 300px;
+        height: 400px;
+    }
+    .SupportBtn{
+        height: 30px;
+        width: 30px;
+        font-size: 10px;
+    }
+}
+@keyframes supportBtnAnimation {
+    0%{
+        transform: scale(1.01);
+    }
+    15%{
+        transform: scale(1.03);
+
+    }
+    30%{
+        transform: scale(1.05);
+    }
+    60%{
+        transform: scale(1.08);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}

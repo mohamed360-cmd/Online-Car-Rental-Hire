@@ -1,0 +1,44 @@
+.LoginForm{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(220, 223, 225, 0.514);
+    border-radius: 10px;
+    width: 40%;
+    font-family: 'Roboto Slab';
+    box-shadow: 0 0 10px black;
+}
+.InputField{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    width: 90%;
+    font-family: 'Roboto Slab';
+}
+.InputField::placeholder{
+    color: rgb(23, 21, 21);
+}
+.LoginBtn{
+    padding: 10px;
+    border: none;
+    background-color: rgb(65, 45, 245);
+    color: white;
+    width: 60%;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(65, 45, 245);
+    font-family: 'Roboto Slab';
+}
+.showRegisterForm{
+    padding: 10px;
+    border: none;
+    background-color: rgb(63, 49, 189);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(65, 45, 245);
+    font-family: 'Roboto Slab';
+
+}

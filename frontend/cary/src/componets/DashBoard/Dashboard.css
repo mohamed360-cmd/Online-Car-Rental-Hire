@@ -1,0 +1,148 @@
+.MainDashBoardBody{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    height: 90vh;
+    background-image: url("../../assets/background-image.jpg");
+    background-size: contain;
+}
+.sideMenu{
+    background-color: #051E43;
+}
+.Tile{
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+    color: beige;
+    padding: 10px;
+}
+.Tile:hover{
+    border-left: 5px solid orange;
+
+}
+.Active{
+    box-shadow: 0 0 10px black;
+    color: aliceblue;
+    border-left: 5px solid orange;
+}
+.InActive{
+}
+.DashBoardDetailsContainer{
+    padding: 10px;
+    margin-left: 5px;
+}
+.ProfileDispayContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.ProfileEditForm{
+    padding: 10px;
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px #051E43;
+}
+.editFields{
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.editFields:enabled{
+    border: 1px solid green;
+}
+.editFields:disabled{
+    cursor: not-allowed;
+    border: 1px solid red;
+}
+.EditBtn{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #051E43;
+    cursor: pointer;
+    color: #F5F5FA;
+}
+.EditBtn:hover{
+    background-color: #102f5f;
+}
+.btnsEdit{
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.Cancel{
+    background-color: red;
+    margin: 5px;
+}
+.Cancel:hover{
+    box-shadow: 0 0 10px red;
+}
+.Okay{
+    background-color: green;
+}
+.Okay:hover{
+    box-shadow: 0 0 10px green;
+}
+.BookinglistContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    height: 80vh;
+    overflow: scroll;
+
+}
+.bookedContainer{
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    background-color: #051E43;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    height: fit-content;
+}
+.VehicleImageContainerS{
+    margin-right: 5px;
+    height: 100%;
+    width:130px;
+    object-fit: contain;
+    border-radius: 5px;
+    align-self: center;
+}
+.bookCarImg{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.BookingInfoContainer{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.BookingInfoContainer p{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3px;
+    padding: 5px;
+} 
+.CancelBookingBtn{
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    justify-self: center;
+    align-self: center;
+}
+.CancelBookingBtn:hover{
+    box-shadow: 0 0 10px red;
+
+}

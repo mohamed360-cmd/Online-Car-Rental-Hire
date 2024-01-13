@@ -1,0 +1,45 @@
+.CanvasBackground{
+position: absolute;
+top: 0;
+right: 0;
+background-image: url("../../assets/bg3.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.MainAuthContainer{
+    height: 97vh;
+    width: 97vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.LeftSideContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Carylogo{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+
+}
+.Title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    margin-top: 10px;
+    font-family: 'Roboto Slab';
+}
+.RightSideContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

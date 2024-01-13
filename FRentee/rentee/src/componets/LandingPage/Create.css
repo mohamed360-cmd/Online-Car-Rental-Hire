@@ -1,0 +1,108 @@
+.MainCreateContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(181, 185, 187);
+    background-image: url("../../assets/bg3.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.CreateForm{
+padding: 10px;
+width: fit-content;
+background-color: rgb(166, 168, 170);
+box-shadow: 0 0 10px black;
+border-radius: 5px;
+
+}
+.DetailsInput{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin: 3px;
+    width:45%
+}
+.SelectionContainer{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(41, 41, 215);
+    color: white;
+    border-radius: 4px;
+}
+.SelectionContainer select{
+    padding: 5px;
+    border:none;
+    border-radius: 4px;
+    outline: none;
+    font-family: "Roboto slab";
+}
+.FileUploadContainer{
+    padding: 10px;
+    background-color: rgb(65, 65, 228);
+    color: white;
+    border-radius: 4px;
+}
+.FileUploadContainer input{
+    padding: 5px;
+    border:none;
+    border-radius: 4px;
+    outline: none;
+    font-family: "Roboto slab";
+    cursor: pointer;
+    box-shadow: 0 0 3px white;
+    margin-left: 3px;
+}
+.PreviewImagesContainer{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    background-color: rgb(42, 42, 165);
+    height: 110px;
+
+}
+
+.ImageConatainer{
+    height: 100px;
+    width: 100px;
+    margin-left: 3px;
+    object-fit: fill;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.previewImage{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 5px;
+}
+.RemoveImageBtn{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border: none;
+    color: black;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50px;
+    color: aliceblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.uploadBtn{
+    border: none;
+    padding: 10px;
+    background-color: rgb(29, 85, 175);
+    color: white;
+    border-radius: 4px;
+    width: 70%;
+    margin: 10px;
+    margin-left: 11%;
+    cursor: pointer;
+    font-family: "Roboto slab";
+    align-self: center;
+}

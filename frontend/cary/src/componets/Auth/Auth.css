@@ -1,0 +1,153 @@
+.holdingMain{
+    background-color: rgba(0, 0, 0, 0.567);
+    position: absolute;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.MainAuthContainer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    
+}
+#Canvas{
+    background-color: transparent;
+}
+.closePopUpBtn{
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 0, 0, 0.595);
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 10px red;
+}
+.closePopUpBtn:hover{
+    transform: scale(1.3);
+}
+.LoginForm{
+padding: 10px;
+border-radius: 6px;
+box-shadow: 0 0 5px pink;
+height: fit-content;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+align-items: center;
+background-color: rgba(41, 70, 96, 0.563);
+width:300px;
+}
+.formTitle{
+    font-style:oblique;
+    font-family: 'Roboto Slab', serif ;
+    color: rgb(255, 255, 255);
+}
+.inputField{
+    border:0.5px solid black;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    width: 70%;
+    margin-bottom: 3px;
+}
+.seePassBtn{
+    border: none;
+    background-color: rgb(19, 19, 113) ;
+    cursor: pointer;
+    padding: 3px;
+    width: 50px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.forgotPasswordLink{
+    align-self: flex-end;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+.loginBtn{
+    padding: 15px 10px;
+    border:none;
+    border-radius: 6px;
+    background-color:  rgb(19, 19, 113);
+    color: white;
+    cursor: pointer;
+    width: 70%;
+}
+.loginBtn:hover{
+    background-color: rgb(53, 53, 194);
+    transform: scale(1.03);
+}
+.btnShowRegister{
+    display: inline-block;
+    padding: 15px 10px;
+    border:none;
+    border-radius: 6px;
+    background-color: rgb(59, 59, 228);
+    color: white;
+    cursor: pointer;
+}
+.btnShowRegister:hover{
+    background-color: rgb(59, 59, 228);
+    transform: scale(0.95);
+}
+.registerForm{
+    padding: 10px;
+border-radius: 6px;
+box-shadow: 0 0 5px rgb(255, 167, 181);
+height: fit-content;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+align-items: center;
+background-color: rgba(41, 70, 96, 0.563);
+width:300px;
+}
+.registerBtn{
+    padding: 15px 10px;
+    border:none;
+    border-radius: 6px;
+    background-color: rgb(19, 19, 113);
+    color: white;
+    cursor: pointer;
+    width: 70%;
+}
+.registerBtn:hover{
+    background-color: rgb(53, 53, 194);
+    transform: scale(1.03);
+}
+.showLoginBtn{
+    display: inline-block;
+    padding: 15px 10px;
+    border:none;
+    border-radius: 6px;
+    background-color: rgb(59, 59, 228);
+    color: white;
+    cursor: pointer;
+}
+
+.showLoginBtn:hover{
+    background-color: rgb(59, 59, 228);
+    transform: scale(0.95);
+}

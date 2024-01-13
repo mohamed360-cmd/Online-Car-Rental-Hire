@@ -1,0 +1,74 @@
+
+.cancelContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+    background-image: url("../../assets/background-image.jpg");
+    background-size: contain;
+}
+.VehicleImageContainerZ{
+    height: 70%;
+    position: relative;
+}
+.ContainerInfoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgControls{
+    position: absolute;
+top: 50%;
+border: none;
+background-color: rgba(0, 0, 255, 0.61);
+border-radius: 100%;
+cursor: pointer;
+height: 40px;
+width: 40px;
+}
+.LEFT{
+    left: 5px;
+}
+.RIGHT{
+    right: 5px;
+}
+.imgControls:hover{
+    background-color: blue;
+}
+.ContainerInfoContainer p {
+    background-color: blue;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.ContainerInfoContainer b{
+    color: black;
+    font-style :oblique;
+}
+.feedBackField{
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Roboto slab";
+
+}
+.btnTextField{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    color: aliceblue;
+    font-style: "Roboto slab";
+    cursor: pointer;
+}
+.cancelBooking{
+    background-color: brown;
+    box-shadow: 0 0 5px red;
+}
+.back{
+    background-color: green;
+    box-shadow: 0 0 5px green ;
+}

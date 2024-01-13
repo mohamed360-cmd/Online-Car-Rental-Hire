@@ -1,0 +1,304 @@
+.mainRentaingPage{
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    font-family: 'Roboto Slab', serif ;
+    background-image: url("../../assets/background-image.jpg");
+    background-size: contain;
+}
+.VehicleImagesContainer{
+    border:1px solid black;
+    height: 100%;
+    padding: 5px;
+    position: relative;
+}
+.swipeButton{
+    position: absolute;
+    top:50%;
+    border-radius: 50px;
+    height: 50px;
+    width:50px;
+    border: none;
+    padding: 10px;
+    background-color: rgba(4, 4, 250, 0.656);
+    color: bisque;
+    cursor: pointer;
+     
+}
+.left{
+    left:10px
+}
+.right{
+    right: 10px;
+}
+.SelectedImageContainer{
+    height: 90%;
+}
+.SelectedImage{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.vehicleImagePreviewContainer{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.previewIMage{
+    height: 100%;
+    width:50px;
+    object-fit: contain;
+    
+    margin-left: 2px;
+    cursor: pointer;
+}
+.ToggleBtn{
+    border:none;
+    padding: 10px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    margin: 10px;
+    background-color: rgb(69, 69, 219);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+.inActive{
+    background-color: grey;
+    color: black;
+}
+.BookingConatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.pickDropContainer{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: rgba(75, 73, 73, 0.615);
+    width: 80%;
+}
+.pickDropContainer span{
+    color: white;
+
+}
+.LocationInputs{
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    margin-bottom: 5px;
+    border:1px solid blue;
+    background-color: aliceblue;
+}
+.moreOptionsChip{
+    display: inline;
+    padding: 2px;
+    border-radius: 10px;
+    margin-left: 2px;
+    color: aliceblue;
+    background-color: rgb(40, 31, 195);
+}
+.dateInput{
+    border:none;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+.radioInput{
+    accent-color: black;
+}
+
+.bookCarBtn{
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(6, 37, 116);
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+}
+.bookCarBtn:hover{
+    box-shadow: 0 0 10px violet;
+    transform: scale(1.02);
+}
+table{
+    background-color: rgb(29, 106, 5);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+td:nth-child(even){
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border-bottom: 1px solid black;
+}
+td:nth-child(even):hover{
+    transform: scale(1.01);
+}
+.confirmationBtn{
+    border:none;
+    width: 100%;
+    background-color: rgb(10, 10, 131);
+    padding: 10px;
+    border-radius: 6px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.infoSectionContainer{
+    height: 90%;
+    width: 100%;
+}
+.DealerDetailsContainer{
+    display: flex;  
+    height: 200px;
+    width: 100%;
+}
+.profileImageConatiner{
+    height: 90%;
+    width: fit-content;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: 5px;
+}
+.DealersPhoto{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.textInfoSectionRight{
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(10, 10, 10);
+    background-color: rgba(9, 0, 182, 0.671);
+    color: white;
+}
+.CarDetailsSection{
+    border:1px solid blue;
+    height:fit-content ;
+    width: 90%;
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ConfirmationTicketCOntainer{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    background-color: rgba(46, 46, 47, 0.708);
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rentalInfo{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(35, 58, 130);
+    color: black;
+    border-radius: 5px;
+}
+.rentalInfo h2{
+    text-align: center;
+}
+.rentalInfo p{
+    
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(185, 185, 185);
+    border-radius: 5px;
+    display: inline-block;
+}
+.errorInConfirmationPage{
+    padding: 10px;
+    background-color: rgb(34, 34, 147);
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    border-radius: 5px;
+    
+}
+.errorInConfirmationPage button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+.CheckOutBtnContainer{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 25%;
+}
+.checkoutBtn{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 193, 93);
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.checkoutBtn:hover{
+    background-color: rgb(3, 105, 52);
+color: aliceblue;
+}
+.LipaNaMpesaForm{
+    background-color: rgba(11, 11, 11, 0.736);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px black;
+    border: 1px solid white;
+}
+.LipaNaMpesaForm button{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    
+}
+@media screen  and ( max-width : 600px) {
+    .mainRentaingPage{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .pickDropContainer{
+        width: 100%;
+    }
+    .DealerDetailsContainer{
+        height: 150px;
+    }
+    .profileImageConatiner{
+        height: 80%;
+        width: 80%;
+    }
+
+}
